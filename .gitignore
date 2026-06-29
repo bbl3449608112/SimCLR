@@ -1,0 +1,10 @@
+data/*
+!data/.gitkeep
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.env
