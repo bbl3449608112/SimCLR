@@ -26,9 +26,9 @@ REQUIRED_SNIPPETS = {
         "RandomGrayscale",
     ],
     "code/losses.py": ["nt_xent_loss", "temperature", "cross_entropy"],
-    "code/model.py": ["SmallCNNEncoder", "ProjectionHead", "SimCLR", "LinearProbe"],
+    "code/model.py": ["SmallCNNEncoder", "ProjectionHead", "SimCLR", "LinearProbe", "requires_grad"],
     "code/train_simclr.py": ["build_pretrain_dataset", "nt_xent_loss", "torch.save"],
-    "code/linear_probe.py": ["encoder.load_state_dict", "requires_grad", "test_accuracy"],
+    "code/linear_probe.py": ["encoder.load_state_dict", "test_accuracy"],
 }
 
 
