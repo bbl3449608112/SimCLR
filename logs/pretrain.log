@@ -1,0 +1,5 @@
+epoch=001 contrastive_loss=4.262607 lr=0.000904508
+epoch=002 contrastive_loss=4.105043 lr=0.000654508
+epoch=003 contrastive_loss=3.983586 lr=0.000345492
+epoch=004 contrastive_loss=3.907005 lr=9.54915e-05
+epoch=005 contrastive_loss=3.876090 lr=0

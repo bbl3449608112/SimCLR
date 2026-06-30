@@ -1,0 +1,48 @@
+{
+  "config": {
+    "data_dir": "data",
+    "epochs": 5,
+    "batch_size": 64,
+    "lr": 0.001,
+    "temperature": 0.5,
+    "train_limit": 2000,
+    "image_size": 32,
+    "feature_dim": 256,
+    "projection_dim": 128,
+    "num_workers": 0,
+    "seed": 42,
+    "cpu": true,
+    "checkpoint_dir": "checkpoints",
+    "results_dir": "results"
+  },
+  "device": "cpu",
+  "num_train_images": 2000,
+  "epochs": [
+    {
+      "epoch": 1,
+      "contrastive_loss": 4.262606974570982,
+      "learning_rate": 0.0009045084971874737
+    },
+    {
+      "epoch": 2,
+      "contrastive_loss": 4.105042888272193,
+      "learning_rate": 0.0006545084971874737
+    },
+    {
+      "epoch": 3,
+      "contrastive_loss": 3.9835858883396273,
+      "learning_rate": 0.00034549150281252633
+    },
+    {
+      "epoch": 4,
+      "contrastive_loss": 3.9070046717120754,
+      "learning_rate": 9.549150281252633e-05
+    },
+    {
+      "epoch": 5,
+      "contrastive_loss": 3.8760897728704635,
+      "learning_rate": 0.0
+    }
+  ],
+  "elapsed_seconds": 114.53
+}

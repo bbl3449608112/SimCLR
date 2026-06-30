@@ -1,0 +1,34 @@
+{
+  "examples": [
+    {
+      "index": 0,
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "correct": false
+    },
+    {
+      "index": 1,
+      "true_label": "automobile",
+      "predicted_label": "automobile",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "true_label": "horse",
+      "predicted_label": "bird",
+      "correct": false
+    },
+    {
+      "index": 3,
+      "true_label": "ship",
+      "predicted_label": "horse",
+      "correct": false
+    },
+    {
+      "index": 4,
+      "true_label": "ship",
+      "predicted_label": "ship",
+      "correct": true
+    }
+  ]
+}

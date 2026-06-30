@@ -132,11 +132,11 @@ python code/linear_probe.py --train-limit 2000 --test-limit 1000 --epochs 3 --ba
 
 | Epoch | Contrastive Loss |
 |---|---:|
-| 1 | 待运行后填写 |
-| 2 | 待运行后填写 |
-| 3 | 待运行后填写 |
-| 4 | 待运行后填写 |
-| 5 | 待运行后填写 |
+| 1 | 4.2626 |
+| 2 | 4.1050 |
+| 3 | 3.9836 |
+| 4 | 3.9070 |
+| 5 | 3.8761 |
 
 loss 曲线文件：`report/figures/pretrain_loss.png`
 
@@ -150,7 +150,7 @@ loss 曲线文件：`report/figures/pretrain_loss.png`
 
 | 指标 | 结果 |
 |---|---:|
-| test accuracy | 待运行后填写 |
+| test accuracy | 35.50% |
 | random baseline | 10% |
 
 如果准确率接近 10%，可能原因包括：预训练 epoch 太少、batch size 太小、CPU 版本 encoder 较浅、训练图像数量较少、增强较强或 temperature 需要调参。
@@ -172,11 +172,11 @@ python code/predict_examples.py --num-examples 5 --cpu
 
 | 图片编号 | 真实类别 | 预测类别 | 是否正确 |
 |---|---|---|---|
-| 1 | 待填写 | 待填写 | 待填写 |
-| 2 | 待填写 | 待填写 | 待填写 |
-| 3 | 待填写 | 待填写 | 待填写 |
-| 4 | 待填写 | 待填写 | 待填写 |
-| 5 | 待填写 | 待填写 | 待填写 |
+| 1 | cat | dog | 否 |
+| 2 | automobile | automobile | 是 |
+| 3 | horse | bird | 否 |
+| 4 | ship | horse | 否 |
+| 5 | ship | ship | 是 |
 
 ## 11. 问题与改进
 

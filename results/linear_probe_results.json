@@ -1,0 +1,46 @@
+{
+  "config": {
+    "data_dir": "data",
+    "checkpoint": "checkpoints/simclr_encoder.pt",
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "train_limit": 2000,
+    "test_limit": 1000,
+    "image_size": 32,
+    "feature_dim": 256,
+    "num_workers": 0,
+    "seed": 42,
+    "cpu": true,
+    "results_dir": "results",
+    "checkpoint_dir": "checkpoints"
+  },
+  "device": "cpu",
+  "num_train_images": 2000,
+  "num_test_images": 1000,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 2.144874864578247,
+      "train_accuracy": 0.2135,
+      "test_loss": 2.006927890777588,
+      "test_accuracy": 0.285
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9320399951934815,
+      "train_accuracy": 0.311,
+      "test_loss": 1.8868521766662598,
+      "test_accuracy": 0.339
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8456447582244873,
+      "train_accuracy": 0.3575,
+      "test_loss": 1.8413074350357055,
+      "test_accuracy": 0.355
+    }
+  ],
+  "elapsed_seconds": 14.5,
+  "final_test_accuracy": 0.355
+}
